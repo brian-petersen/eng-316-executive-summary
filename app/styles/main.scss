@@ -21,6 +21,17 @@ h1.title {
     max-width: 100%;
   }
 
+  h1.title {
+    position: absolute;
+    top: 63px;
+    right: 100px;
+    
+    font-size: 60px;
+    text-shadow: 0 0 7px #000;
+    line-height: 1;
+    color: #fff;
+  }
+
   p.authors {
     margin: 0;
     padding: 0;
@@ -29,7 +40,11 @@ h1.title {
     bottom: 10px;
     right: 10px;
     
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 0 0 8px #000;
     color: #fff;
+
   }
 }
 
@@ -39,8 +54,6 @@ h1.title {
   padding: .25in;
 
   box-sizing: border-box;
-
-  background: lightgray;
 
   .column {
     width: 50%;
@@ -56,10 +69,37 @@ h1.title {
 }
 
 h2.section {
-    font-size: 16pt;
-    margin: 5px 0;
-    padding: 6px 0;
-    background: gold;
+  font-size: 16pt;
+  color: #fff;
+  margin: 5px 0;
+  padding: 6px 0;
+  background: #4e606c;
+
+  position: relative;
+
+  &:before {
+    display: block;
+    content: '';
+    width: 5px;
+    height: 36px;
+    background: #4e606c;
+
+    position: absolute;
+    left: -5px;
+    top: 0;
+  }
+
+  &:after {
+    display: block;
+    content: '';
+    width: 5px;
+    height: 36px;
+    background: #4e606c;
+
+    position: absolute;
+    right: -5px;
+    top: 0;
+  }
 }
 
 table {

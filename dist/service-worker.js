@@ -31,7 +31,7 @@ importScripts("scripts/sw/sw-toolbox.js","scripts/sw/runtime-caching.js");
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["images/quantum-computer.jpg","ed97cefb40bfa6c685582128ec22e16b"],["index.html","0d1dbe5548d7406edabd3dda63347369"],["scripts/sw/sw-toolbox.js","e7e54a466864d42dcccc8c3f80a91d1f"],["styles/main.css","0e5bd91f18d619e678012d7a026a5dbc"],["styles/normalize.css","fd114c44db5a25687f51934024b822a6"]];
+var PrecacheConfig = [["images/quantum-computer.jpg","a91f87cf81155822f2e3e922390b76ef"],["index.html","2171008a01bf1d223409fb0c49adc45f"],["scripts/sw/sw-toolbox.js","e7e54a466864d42dcccc8c3f80a91d1f"],["styles/main.css","c86140b9075ae708e59bf03a4b10b850"],["styles/normalize.css","fd114c44db5a25687f51934024b822a6"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1-web-starter-kit-' + (self.registration ? self.registration.scope : '') + '-';
 
