@@ -25,7 +25,7 @@ h1.title {
     position: absolute;
     top: 63px;
     right: 100px;
-    
+
     font-size: 60px;
     text-shadow: 0 0 7px #000;
     line-height: 1;
@@ -39,7 +39,7 @@ h1.title {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    
+
     font-size: 22px;
     font-weight: bold;
     text-shadow: 0 0 8px #000;
@@ -118,10 +118,12 @@ table {
 }
 
 img.timeline {
-  max-height: 3in;
+  // max-height: 3in;
 
-  margin: 0 auto;
-  display: block;
+  // margin: 0 auto;
+  // display: block;
+  padding-top: 20px;
+  width: 49%;
 }
 
 ol {
